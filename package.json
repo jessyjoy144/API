@@ -1,0 +1,27 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "This API calls the API end point at https://bpdts-test-app.herokuapp.com/, and returns the list of people who are living in London.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessyjoy144/API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessyjoy144/API/issues"
+  },
+  "homepage": "https://github.com/jessyjoy144/API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3"
+  }
+}
